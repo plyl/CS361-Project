@@ -1,0 +1,119 @@
+.add-budget-container {
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+}
+
+.budget-calculator {
+    width: 60%;
+    /* border: 1px solid; */
+}
+
+.budget-calculator-group {
+    /* border: 1px solid; */
+    padding: 11px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+/* .budget-calculator-group label {
+    position: relative;
+    right: 200px;
+} */
+
+.budget-calculator-group input {
+    /* position: absolute;
+    left: 950px; */
+    background-color: rgb(231, 220, 238);
+    color: black;
+    width: 200px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    /* border: 1px sandybrown; */
+    font-size: 14px;
+}
+
+.calculator-btn {
+    margin-top: 20px;
+    background: linear-gradient(to top, #8783bc, #b49ebb);
+    width: 170px;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.current-budget {
+    /* border: 1px solid; */
+    height: 40%;
+    width: 40%;
+    font-size: 20px;
+}
+
+.set-monthly-budget {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    /* border: 1px solid; */
+    height: 30%;
+    /* padding-top: 100px;
+    padding-left: 100px; */
+}
+
+
+.set-monthly-budget label {
+    /* position: relative;
+
+    right: 10px; */
+    font-size: 20px;
+    padding-left: 20px
+}
+
+.set-monthly-budget input {
+
+    background-color: rgb(231, 220, 238);
+    width: 200px;
+    height: 38px;
+    color: black;
+    /* border: 1px sandybrown; */
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+
+.update-budget-btn {
+    position: absolute;
+    left: 68%;
+    top: 66%;
+    background: linear-gradient(to top, #8783bc, #b49ebb);
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.help-instruction {
+    position: absolute;
+    background: linear-gradient(to top, #8783bc, #b49ebb);
+    color: rgb(8, 8, 8);
+    font-size: 16px;
+    text-align: left;
+    padding: 30px;
+    width: 400px;
+    border-radius: 40px;
+    left: 35%;
+    top: 50%;
+}
+
+.help-instruction-btn {
+    position: relative;
+    margin-top: 10px;
+    left: 150px;
+}
